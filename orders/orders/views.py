@@ -1,5 +1,4 @@
 from django.core.exceptions import ObjectDoesNotExist
-from django.shortcuts import render
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
@@ -9,7 +8,6 @@ from .models import Order
 
 def serialize_orders(orders, many):
     serializer = OrderSerializer(orders, many=many)
-    return Response(serializer.data)
     return Response(serializer.data)
 
 
