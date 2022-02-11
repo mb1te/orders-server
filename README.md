@@ -18,7 +18,7 @@
 ## Запуск приложения
 
 ```commandline
-    docker compose up
+docker compose up
 ```
 
 ## Описание видов запросов
