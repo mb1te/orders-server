@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "volnatesttask"
+name = "orders-server"
 version = "0.1.0"
 description = ""
 authors = ["Vladislav Novikov <mb1te.comics@gmail.com>"]
